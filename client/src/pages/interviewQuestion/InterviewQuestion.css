@@ -1,0 +1,281 @@
+.interview-page {
+    min-height: calc(100vh - 70px);
+    padding: 50px 8%;
+    background: #f7f8fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.interview-header {
+    max-width: 1200px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+.interview-header h1 {
+    margin: 0 0 12px;
+    font-size: 65px;
+    color: #171717;
+}
+
+.interview-header p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.interview-box {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.interview-box label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+}
+
+.interview-box textarea {
+    width: 100%;
+    min-height: 180px;
+    box-sizing: border-box;
+
+    padding: 16px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    resize: none;
+    outline: none;
+
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.6;
+
+    transition: 0.2s;
+}
+
+.interview-box textarea:focus {
+    border-color: #635bff;
+    box-shadow: 0 0 0 3px rgba(99, 91, 255, 0.1);
+}
+
+.description-hint {
+    margin: 13px 0 0;
+    color: #777;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.generate-button {
+    width: 100%;
+    margin-top: 28px;
+    padding: 14px;
+
+    border: none;
+    border-radius: 9px;
+
+    background: #635bff;
+    color: white;
+
+    font-size: 23px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.generate-button:hover {
+    background: #5047df;
+}
+
+.generate-button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+
+
+.error-message {
+    margin: 15px 0 0;
+    color: #dc2626;
+    font-size: 14px;
+}
+
+
+
+.questions-container {
+    max-width: 1000px;
+    margin: 45px auto 0;
+}
+
+.questions-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.questions-title h2 {
+    margin: 0;
+    font-size: 35px;
+    color: #222;
+}
+
+.questions-title span {
+    padding: 7px 12px;
+
+    border-radius: 20px;
+
+    background: #ecebff;
+    color: #635bff;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.question-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+    padding: 22px;
+
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 12px;
+
+    transition: 0.2s;
+}
+
+.question-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.question-number {
+    min-width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: #635bff;
+    color: white;
+
+    font-weight: 700;
+}
+
+.question-details {
+    flex: 1;
+}
+
+.question-details h3 {
+    margin: 2px 0 14px;
+
+    color: #222;
+
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.question-tag,
+.difficulty-tag {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.question-tag {
+    background: #eef2ff;
+    color: #4f46e5;
+}
+
+.difficulty-tag {
+    background: #f3f4f6;
+    color: #555;
+}
+
+
+.generate-again {
+    display: block;
+
+    margin: 25px auto;
+    padding: 12px 25px;
+
+    border: 1px solid #635bff;
+    border-radius: 8px;
+
+    background: white;
+    color: #635bff;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.generate-again:hover {
+    background: #635bff;
+    color: white;
+}
+
+.generate-again:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+
+    .interview-page {
+        padding: 35px 20px;
+    }
+
+    .interview-header h1 {
+        font-size: 30px;
+    }
+
+    .interview-header p {
+        font-size: 15px;
+    }
+
+    .interview-box {
+        padding: 20px;
+    }
+
+    .questions-title {
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .questions-title h2 {
+        font-size: 23px;
+    }
+
+    .question-card {
+        padding: 17px;
+    }
+}

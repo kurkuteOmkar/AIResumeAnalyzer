@@ -1,0 +1,141 @@
+
+.questions-container {
+    max-width: 1000px;
+    margin: 45px auto 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.questions-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.questions-title h2 {
+    margin: 0;
+    font-size: 35px;
+    color: #222;
+}
+
+.questions-title span {
+    padding: 7px 12px;
+
+    border-radius: 20px;
+
+    background: #ecebff;
+    color: #635bff;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Question Cards */
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.question-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+    padding: 22px;
+
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 12px;
+
+    transition: 0.2s;
+}
+
+.question-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.question-number {
+    min-width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: #635bff;
+    color: white;
+
+    font-weight: 700;
+}
+
+.question-details {
+    flex: 1;
+}
+
+.question-details h3 {
+    margin: 2px 0 14px;
+
+    color: #222;
+
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Tags */
+
+.question-tag,
+.difficulty-tag {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.question-tag {
+    background: #eef2ff;
+    color: #4f46e5;
+}
+
+.difficulty-tag {
+    background: #f3f4f6;
+    color: #555;
+}
+
+
+.generate-again {
+    display: block;
+
+    margin: 25px auto;
+    padding: 12px 25px;
+
+    border: 1px solid #635bff;
+    border-radius: 8px;
+
+    background: white;
+    color: #635bff;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.generate-again:hover {
+    background: #635bff;
+    color: white;
+}
+
+.generate-again:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

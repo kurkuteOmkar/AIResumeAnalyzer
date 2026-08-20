@@ -1,0 +1,289 @@
+.resumedetails{
+    margin-top:5vh ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rdContainer1{
+display: flex;
+height: 34vh;
+
+}
+.atsscore{
+    width: 30vw;
+    text-align: center;
+    background-color:rgb(191, 191, 250);
+    border-radius: 3vh;
+    margin: auto 4vh auto 5vh;
+    color: white;
+    height: 100%;
+}
+.atsscore h1{
+    font-size: 7vh;
+}
+.atsscore h3{
+    font-size: 9vh;
+    color: red;
+    margin: 0;
+}
+.overallverdict{
+    height: 100%;
+    width: 100%;
+    margin-right:7vh;  
+    border-radius: 3vh;
+    /* overflow: hidden; */
+}
+.overallverdict h1{
+    background-color:rgb(191, 191, 250);    
+    margin: 0;
+    height: 25%;
+    text-align: center;
+    color: white;
+    padding-top: 1vh;
+    font-size: 7.5vh;
+    overflow: hidden;
+}
+.overallverdict ul{
+    margin: 0;
+    height: 75%;
+    font-size: 1.4vw;
+    background-color: #F8F5F5;
+    padding:2vh 4vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.rdContainer2{
+    height: 30vh;
+display: flex;
+justify-content: space-evenly;
+margin-top: 8vh;
+
+}
+.strengths{
+width: 45vw;
+height: 30vh;
+/* overfl   ow: hidden; */
+border-radius: 3vh;
+}
+.strengths h1{
+    margin: 0;
+    height: 30%;
+    font-size: 5vh;
+    background-color: #BFBFFA;
+    text-align: center;
+    line-height: 8vh;
+    color: white;
+}
+.strengths ul{
+    margin: 0;    height: 70%;
+    font-size: 1.4vw;
+    background-color: #F8F5F5;
+    padding:2vh 4vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.weaknesses{
+    width: 45vw;
+    height: 30vh;
+    /* overflow: hidden; */
+    border-radius: 3vh;
+    }
+    .weaknesses h1{
+        margin: 0;
+        height: 30%;
+        font-size: 5vh;
+        background-color: #BFBFFA;
+        text-align: center;
+        line-height: 8vh;
+        color: white;
+    }
+    .weaknesses ul{
+        margin: 0;
+        height: 70%;
+        background-color: #F8F5F5;
+        font-size: 1.4vw;
+        padding:2vh 4vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .rdContainer3{
+        height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8vh;
+    
+    }
+    .grammerAndFormating{
+    width: 45vw;
+    height: 30vh;
+    /* overflow: hidden; */
+    border-radius: 3vh;
+    }
+    .grammerAndFormating h1{
+        margin: 0;
+        height: 30%;
+        font-size: 5vh;
+        background-color: #BFBFFA;
+        text-align: center;
+        line-height: 8vh;
+        color: white;
+        overflow: hidden;
+    }
+    .grammerAndFormating ul{
+        margin: 0;    height: 70%;
+        font-size: 1.4vw;
+        background-color: #F8F5F5;
+        padding:2vh 4vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .improvementSuggestions{
+        width: 45vw;
+        height: 30vh;
+        /* overflow:scroll; */
+        border-radius: 3vh;
+        }
+        .improvementSuggestions h1{
+            margin: 0;
+            height: 30%;
+            font-size: 5vh;
+            background-color: #BFBFFA;
+            text-align: center;
+            line-height: 8vh;
+            color: white;
+        }
+        .improvementSuggestions ul{
+            margin: 0;
+            height: 70%;
+            background-color: #F8F5F5;
+            font-size: 1.4vw;
+            padding:2vh 4vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .rdContainer4{
+            height: 30vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 8vh;
+        
+        }
+        .projectEvaluation{
+        width: 45vw;
+        height: 30vh;
+        /* overflow: scroll;     */
+        border-radius: 3vh;
+        }
+        .projectEvaluation h1{
+            margin: 0;
+            height: 30%;
+            font-size: 5vh;
+            background-color: #BFBFFA;
+            text-align: center;
+            line-height: 8vh;
+            color: white;
+        }
+        .projectEvaluation ul{ 
+            overflow-y: scroll;
+            overflow-x: hidden;
+           margin: 0;   
+          height: 70%;
+            font-size: 1.4vw;
+            background-color: #F8F5F5;
+            padding:2vh 4vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .recommendedRoles{
+            width: 45vw;
+            height: 30vh;
+            /* overflow: hidden; */
+            border-radius: 3vh;
+            }
+            .recommendedRoles h1{
+                margin: 0;
+                height: 30%;
+                font-size: 5vh;
+                background-color: #BFBFFA;
+                text-align: center;
+                line-height: 8vh;
+                color: white;
+            }
+            .recommendedRoles ul{
+                margin: 0;
+                height: 70%;
+                background-color: #F8F5F5;
+                font-size: 1.4vw;
+                padding:2vh 4vh;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+            .rdContainer5{
+                height: 30vh;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 8vh;
+            
+            }
+            .missingSkills{
+            width: 45vw;
+            height: 30vh;
+            /* overflow: hidden; */
+            border-radius: 3vh;
+            }
+            .missingSkills h1{
+                margin: 0;
+                height: 30%;
+                font-size: 5vh;
+                background-color: #BFBFFA;
+                text-align: center;
+                line-height: 8vh;
+                color: white;
+            }
+            .missingSkills ul{
+                margin: 0;   
+              height: 70%;
+                font-size: 1.4vw;
+                background-color: #F8F5F5;
+                padding:2vh 4vh;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+            .educationReview{
+                width: 45vw;
+                height: 30vh;
+                /* overflow: hidden; */
+                border-radius: 3vh;
+                }
+                .educationReview h1{
+                    margin: 0;
+                    height: 30%;
+                    font-size: 5vh;
+                    background-color: #BFBFFA;
+                    text-align: center;
+                    line-height: 8vh;
+                    color: white;
+                }
+                .educationReview ul{
+                    margin: 0;
+                    height: 70%;
+                    background-color: #F8F5F5;
+                    font-size: 1.4vw;
+                    padding:2vh 4vh;
+                    overflow-y: auto;
+                    overflow-x: hidden;
+                }
+ .resumeInterviewQuestionButton{
+    text-align: center;
+    margin-top: 120px;
+ }
+ .resumeInterviewQuestionButton button{
+    background-color: #BFBFFA;
+    border: none;
+    border-radius: 1vh;
+    padding: 15px;
+    font-size: 1.5vw;
+    color: white;
+    cursor: pointer;
+ }
+ .resumeInterviewQuestionButton button:hover{
+    background-color: blue;
+ }

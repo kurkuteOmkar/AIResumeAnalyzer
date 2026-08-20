@@ -1,0 +1,94 @@
+.login-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 35%;
+    height: 500px;
+    display: flex;
+    
+    margin:100px auto 50px auto;
+    padding:100px auto 400px auto;
+    flex-direction: column;
+}
+.login-heading{
+    color:rgb(81, 80, 80);
+    font-size: 35px;
+}
+
+/* login form container */
+.login-form{
+    margin-top: 30px;
+}
+.login-emailAdd{
+}
+.login-emailAdd label{
+font-size: 15px;
+font-size: 25px;
+color:rgb(30, 5, 49);    
+}
+.login-emailAdd input{
+    width: 80%;
+    margin:10px 0;
+    border-radius: 10px;
+    height: 35px;
+    padding:5px 15px;
+    font-size: 19px;
+    border:2px solid rgb(137, 137, 194);
+}
+.login-emailAdd input:focus{
+    outline: none;
+    border:2px solid blue;
+    font-size: 20px;
+}
+
+.login-password{
+}
+.login-password label{
+font-size: 15px;
+font-size: 25px;
+color:rgb(30, 5, 49);      
+}
+.login-password input{
+    width: 80%;
+    margin:10px 0;
+    border-radius: 10px;
+    height: 35px;
+    padding:5px 15px;
+    font-size: 19px;
+    border:2px solid rgb(137, 137, 194);
+}
+.login-password input:focus{
+    outline: none;
+    border:2px solid blue;
+    font-size: 20;
+}
+
+.login-signIn{
+
+}
+.login-signIn button{
+    border-radius: 15px;
+    padding: 15px;
+    border:2px solid rgb(137, 137, 194);
+    width:150px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.login-Signup{
+    color: rgb(69, 69, 124);
+}
+.login-Signup{
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        width: 90%;
+        margin-top: 50px;
+        padding: 20px;
+        height: auto;
+    }
+    .login-emailAdd input,
+    .login-password input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

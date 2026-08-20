@@ -1,0 +1,112 @@
+.Register-container{
+    width: 35%;
+    height: 500px;
+    display: flex;
+    margin:100px auto 50px auto;
+    padding:100px auto 400px auto;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Register-heading{
+    color:rgb(81, 80, 80);
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+/* Register form container */
+.Register-form{
+    margin-top: 30px;
+}
+.Register-FullName{
+}
+.Register-FullName label{
+font-size: 15px;
+font-size: 25px;
+color:rgb(30, 5, 49);    
+}
+.Register-FullName input{
+    width: 80%;
+    margin:10px 0 25px 0;
+    border-radius: 10px;
+    height: 35px;
+    padding:5px 15px;
+    font-size: 19px;
+    border:2px solid rgb(137, 137, 194);
+}
+.Register-FullName input:focus{
+    outline: none;
+    border:2px solid blue;
+    font-size: 20px;
+}
+.Register-emailAdd{
+}
+.Register-emailAdd label{
+font-size: 15px;
+font-size: 25px;
+color:rgb(30, 5, 49);    
+}
+.Register-emailAdd input{
+    width: 80%;
+    margin:10px 0 25px 0;
+    border-radius: 10px;
+    height: 25px;
+    padding:5px 15px;
+    font-size: 19px;
+    border:2px solid rgb(137, 137, 194);
+}
+.Register-emailAdd input:focus{
+    outline: none;
+    border:2px solid blue;
+    font-size: 20px;
+}
+
+.Register-password{
+}
+.Register-password label{
+font-size: 15px;
+font-size: 25px;
+color:rgb(30, 5, 49);      
+}
+.Register-password input{
+    width: 80%;
+    margin:10px 0 25px 0;
+    border-radius: 10px;
+    height: 25px;
+    padding:5px 15px;
+    font-size: 15px;
+    border:2px solid rgb(137, 137, 194);
+}
+.Register-password input:focus{
+    outline: none;
+    border:2px solid blue;
+}
+
+.Register-signIn{
+
+}
+.Register-signIn button{
+    border-radius: 15px;
+    padding: 15px;
+    border:2px solid rgb(137, 137, 194);
+    width:150px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.Register-Signup{
+    color: rgb(69, 69, 124);
+}
+
+@media (max-width: 768px) {
+    .Register-container {
+        width: 90%;
+        margin-top: 50px;
+        padding: 20px;
+        height: auto;
+    }
+    .Register-FullName input,
+    .Register-emailAdd input,
+    .Register-password input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

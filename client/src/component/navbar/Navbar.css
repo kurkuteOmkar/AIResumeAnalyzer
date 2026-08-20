@@ -1,0 +1,175 @@
+.navbar-container {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    background-color: rgb(248, 245, 245);
+    padding: 16px 28px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo i {
+    color: blue;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo p {
+    margin-left: 14px;
+    font-size: 2rem; 
+    font-weight: bold;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .navbar-logo p span {
+    color: blue;
+    margin-right: 6px;
+  }
+  
+  .navbar-tabs {
+    display: flex;
+    gap: 2.5rem;
+    font-size: 1.25rem; 
+    align-items: center;
+  }
+  
+  .navbar-navigate-tab {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .navbar-navigate-tab:hover,
+  .navbar-navigate-tab.active {
+    color: blue;
+  }
+  
+  .navbar-user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .auth-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .navbar-user .nav_link {
+    background-color: blue;
+    font-size: 1.15rem; 
+    padding: 10px 22px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .navbar-user .nav_link:hover {
+    background-color: rgb(22, 22, 55);
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .userInfo i {
+    font-size: 2.4rem; 
+    color: blue;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  
+  .userInfo i:hover {
+    color: rgb(107, 107, 222);
+    transform: scale(1.05);
+  }
+  
+  .userName {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    max-width: 150px;
+    font-size: 1.1rem; 
+    padding: 8px 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .userInfo button.logout-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 1.1rem; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+  
+  .userInfo button.logout-btn:hover {
+    transform: scale(1.05);
+    background-color: red;
+  }
+  
+  @media (max-width: 968px) {
+    .navbar-container {
+      flex-direction: column;
+      padding: 15px;
+      gap: 15px;
+    }
+  
+    .navbar-logo {
+      width: 100%;
+      justify-content: center;
+      margin: 0;
+    }
+  
+    .navbar-tabs {
+      width: 100%;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 1.1rem;
+    }
+  
+    .navbar-user {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-logo p {
+      font-size: 1.6rem;
+    }
+    
+    .navbar-tabs {
+      gap: 12px;
+      font-size: 1rem;
+    }
+  
+    .userInfo {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
