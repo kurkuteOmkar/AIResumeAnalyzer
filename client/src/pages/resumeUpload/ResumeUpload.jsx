@@ -29,7 +29,7 @@ function ResumeUpload() {
 
     try {
       const response = await axios.post(
-        "https://airesumeanalyzer-h0zk.onrender.com/upload/resumeUpload",
+       `${import.meta.env.VITE_API_URLfeature}/upload/resumeUpload`,
         formData,
         {
           headers: {

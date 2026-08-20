@@ -28,7 +28,7 @@ function Register(){
         return
     }
     try{
-    const response=await axios.post("https://airesumeanalyzer-h0zk.onrender.com/signup",data)
+    const response=await axios.post(`${import.meta.env.VITE_API_URLfeature}/signup`,data)
     if(response.status === 200 ){
         navigate("/login")
     }

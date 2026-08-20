@@ -20,7 +20,7 @@ function RoadMap() {
         try {
             const token=localStorage.getItem("token")
             const response = await fetch(
-                "https://airesumeanalyzer-h0zk.onrender.com/feature/roadmap",
+               `${import.meta.env.VITE_API_URLfeature}/feature/roadmap`,
                 {
                     method: "POST",
                     headers: {

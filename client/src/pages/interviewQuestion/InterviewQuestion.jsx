@@ -19,9 +19,9 @@ function InterviewQuestion() {
 
         try {
             const token=localStorage.getItem("token")
-            const response = await fetch(
-                "https://airesumeanalyzer-h0zk.onrender.com/feature/interviewquestions",
-                {
+                const response = await fetch(
+                    `${import.meta.env.VITE_API_URLfeature}/interviewquestions`,
+                    {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
