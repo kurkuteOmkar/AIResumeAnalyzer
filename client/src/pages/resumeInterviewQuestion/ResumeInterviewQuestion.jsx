@@ -22,7 +22,7 @@ function ResumeInterviewQuestion() {
                 const token = localStorage.getItem("token");
 
                 const response = await axios.post(
-                    `http://localhost:8000/upload/resumeinterviewquestion/${id}`,
+                    `https://airesumeanalyzer-h0zk.onrender.com/upload/resumeinterviewquestion/${id}`,
                     {},
                     {
                         headers: {

@@ -20,7 +20,7 @@ function InterviewQuestion() {
         try {
             const token=localStorage.getItem("token")
             const response = await fetch(
-                "http://localhost:8000/feature/interviewquestions",
+                "https://airesumeanalyzer-h0zk.onrender.com/feature/interviewquestions",
                 {
                     method: "POST",
                     headers: {

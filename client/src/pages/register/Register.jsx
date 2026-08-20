@@ -28,7 +28,7 @@ function Register(){
         return
     }
     try{
-    const response=await axios.post("http://localhost:8000/signup",data)
+    const response=await axios.post("https://airesumeanalyzer-h0zk.onrender.com/signup",data)
     if(response.status === 200 ){
         navigate("/login")
     }

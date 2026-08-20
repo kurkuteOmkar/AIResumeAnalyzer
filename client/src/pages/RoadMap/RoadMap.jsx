@@ -20,7 +20,7 @@ function RoadMap() {
         try {
             const token=localStorage.getItem("token")
             const response = await fetch(
-                "http://localhost:8000/feature/roadmap",
+                "https://airesumeanalyzer-h0zk.onrender.com/feature/roadmap",
                 {
                     method: "POST",
                     headers: {

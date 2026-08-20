@@ -30,7 +30,7 @@ return
     return
    }
 try{
-   const response=await axios.post("http://localhost:8000/login",loginInfo)
+   const response=await axios.post("https://airesumeanalyzer-h0zk.onrender.com/login",loginInfo)
    console.log(response.data)
    if(!response.data.token){
     alert("Please login again")

@@ -29,7 +29,7 @@ function ResumeUpload() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/upload/resumeUpload",
+        "https://airesumeanalyzer-h0zk.onrender.com/upload/resumeUpload",
         formData,
         {
           headers: {
