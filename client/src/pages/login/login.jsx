@@ -30,7 +30,7 @@ return
     return
    }
 try{
-   const response=await axios.post(`${import.meta.env.VITE_API_URLfeature}/login`,loginInfo)
+   const response=await axios.post(`${import.meta.env.VITE_API_UR}/login`,loginInfo)
    console.log(response.data)
    if(!response.data.token){
     alert("Please login again")
