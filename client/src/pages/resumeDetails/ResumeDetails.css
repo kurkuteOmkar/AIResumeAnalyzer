@@ -1,289 +1,224 @@
-.resumedetails{
-    margin-top:5vh ;
+.resumedetails {
+    margin-top: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.rdContainer1{
-display: flex;
-height: 34vh;
-
-}
-.atsscore{
-    width: 30vw;
-    text-align: center;
-    background-color:rgb(191, 191, 250);
-    border-radius: 3vh;
-    margin: auto 4vh auto 5vh;
-    color: white;
-    height: 100%;
-}
-.atsscore h1{
-    font-size: 7vh;
-}
-.atsscore h3{
-    font-size: 9vh;
-    color: red;
-    margin: 0;
-}
-.overallverdict{
-    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
     width: 100%;
-    margin-right:7vh;  
-    border-radius: 3vh;
-    /* overflow: hidden; */
-}
-.overallverdict h1{
-    background-color:rgb(191, 191, 250);    
-    margin: 0;
-    height: 25%;
-    text-align: center;
-    color: white;
-    padding-top: 1vh;
-    font-size: 7.5vh;
-    overflow: hidden;
-}
-.overallverdict ul{
-    margin: 0;
-    height: 75%;
-    font-size: 1.4vw;
-    background-color: #F8F5F5;
-    padding:2vh 4vh;
-    overflow-y: auto;
     overflow-x: hidden;
 }
-.rdContainer2{
-    height: 30vh;
-display: flex;
-justify-content: space-evenly;
-margin-top: 8vh;
 
-}
-.strengths{
-width: 45vw;
-height: 30vh;
-/* overfl   ow: hidden; */
-border-radius: 3vh;
-}
-.strengths h1{
-    margin: 0;
-    height: 30%;
-    font-size: 5vh;
-    background-color: #BFBFFA;
-    text-align: center;
-    line-height: 8vh;
-    color: white;
-}
-.strengths ul{
-    margin: 0;    height: 70%;
-    font-size: 1.4vw;
-    background-color: #F8F5F5;
-    padding:2vh 4vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-.weaknesses{
-    width: 45vw;
-    height: 30vh;
-    /* overflow: hidden; */
-    border-radius: 3vh;
-    }
-    .weaknesses h1{
-        margin: 0;
-        height: 30%;
-        font-size: 5vh;
-        background-color: #BFBFFA;
-        text-align: center;
-        line-height: 8vh;
-        color: white;
-    }
-    .weaknesses ul{
-        margin: 0;
-        height: 70%;
-        background-color: #F8F5F5;
-        font-size: 1.4vw;
-        padding:2vh 4vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
-    .rdContainer3{
-        height: 30vh;
+.rdContainer1,
+.rdContainer2,
+.rdContainer3,
+.rdContainer4,
+.rdContainer5 {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 8vh;
-    
-    }
-    .grammerAndFormating{
-    width: 45vw;
-    height: 30vh;
-    /* overflow: hidden; */
-    border-radius: 3vh;
-    }
-    .grammerAndFormating h1{
-        margin: 0;
-        height: 30%;
-        font-size: 5vh;
-        background-color: #BFBFFA;
-        text-align: center;
-        line-height: 8vh;
-        color: white;
-        overflow: hidden;
-    }
-    .grammerAndFormating ul{
-        margin: 0;    height: 70%;
-        font-size: 1.4vw;
-        background-color: #F8F5F5;
-        padding:2vh 4vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
-    .improvementSuggestions{
-        width: 45vw;
-        height: 30vh;
-        /* overflow:scroll; */
-        border-radius: 3vh;
-        }
-        .improvementSuggestions h1{
-            margin: 0;
-            height: 30%;
-            font-size: 5vh;
-            background-color: #BFBFFA;
-            text-align: center;
-            line-height: 8vh;
-            color: white;
-        }
-        .improvementSuggestions ul{
-            margin: 0;
-            height: 70%;
-            background-color: #F8F5F5;
-            font-size: 1.4vw;
-            padding:2vh 4vh;
-            overflow-y: auto;
-            overflow-x: hidden;
-        }
-        .rdContainer4{
-            height: 30vh;
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 8vh;
-        
-        }
-        .projectEvaluation{
-        width: 45vw;
-        height: 30vh;
-        /* overflow: scroll;     */
-        border-radius: 3vh;
-        }
-        .projectEvaluation h1{
-            margin: 0;
-            height: 30%;
-            font-size: 5vh;
-            background-color: #BFBFFA;
-            text-align: center;
-            line-height: 8vh;
-            color: white;
-        }
-        .projectEvaluation ul{ 
-            overflow-y: scroll;
-            overflow-x: hidden;
-           margin: 0;   
-          height: 70%;
-            font-size: 1.4vw;
-            background-color: #F8F5F5;
-            padding:2vh 4vh;
-            overflow-y: auto;
-            overflow-x: hidden;
-        }
-        .recommendedRoles{
-            width: 45vw;
-            height: 30vh;
-            /* overflow: hidden; */
-            border-radius: 3vh;
-            }
-            .recommendedRoles h1{
-                margin: 0;
-                height: 30%;
-                font-size: 5vh;
-                background-color: #BFBFFA;
-                text-align: center;
-                line-height: 8vh;
-                color: white;
-            }
-            .recommendedRoles ul{
-                margin: 0;
-                height: 70%;
-                background-color: #F8F5F5;
-                font-size: 1.4vw;
-                padding:2vh 4vh;
-                overflow-y: auto;
-                overflow-x: hidden;
-            }
-            .rdContainer5{
-                height: 30vh;
-            display: flex;
-            justify-content: space-evenly;
-            margin-top: 8vh;
-            
-            }
-            .missingSkills{
-            width: 45vw;
-            height: 30vh;
-            /* overflow: hidden; */
-            border-radius: 3vh;
-            }
-            .missingSkills h1{
-                margin: 0;
-                height: 30%;
-                font-size: 5vh;
-                background-color: #BFBFFA;
-                text-align: center;
-                line-height: 8vh;
-                color: white;
-            }
-            .missingSkills ul{
-                margin: 0;   
-              height: 70%;
-                font-size: 1.4vw;
-                background-color: #F8F5F5;
-                padding:2vh 4vh;
-                overflow-y: auto;
-                overflow-x: hidden;
-            }
-            .educationReview{
-                width: 45vw;
-                height: 30vh;
-                /* overflow: hidden; */
-                border-radius: 3vh;
-                }
-                .educationReview h1{
-                    margin: 0;
-                    height: 30%;
-                    font-size: 5vh;
-                    background-color: #BFBFFA;
-                    text-align: center;
-                    line-height: 8vh;
-                    color: white;
-                }
-                .educationReview ul{
-                    margin: 0;
-                    height: 70%;
-                    background-color: #F8F5F5;
-                    font-size: 1.4vw;
-                    padding:2vh 4vh;
-                    overflow-y: auto;
-                    overflow-x: hidden;
-                }
- .resumeInterviewQuestionButton{
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.atsscore,
+.overallverdict,
+.strengths,
+.weaknesses,
+.grammerAndFormating,
+.improvementSuggestions,
+.projectEvaluation,
+.recommendedRoles,
+.missingSkills,
+.educationReview {
+    width: 100%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: #F8F5F5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.atsscore {
+    background-color: rgb(191, 191, 250);
+    color: white;
     text-align: center;
-    margin-top: 120px;
- }
- .resumeInterviewQuestionButton button{
+    padding: 2rem 1rem;
+    margin: 0;
+    height: auto;
+}
+
+.atsscore h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.atsscore h3 {
+    font-size: 3.5rem;
+    color: #ff3333;
+    margin: 0;
+}
+
+
+.overallverdict h1,
+.strengths h1,
+.weaknesses h1,
+.grammerAndFormating h1,
+.improvementSuggestions h1,
+.projectEvaluation h1,
+.recommendedRoles h1,
+.missingSkills h1,
+.educationReview h1 {
+    background-color: #BFBFFA;
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    line-height: normal;
+    height: auto;
+}
+
+.overallverdict ul,
+.strengths ul,
+.weaknesses ul,
+.grammerAndFormating ul,
+.improvementSuggestions ul,
+.projectEvaluation ul,
+.recommendedRoles ul,
+.missingSkills ul,
+.educationReview ul {
+    margin: 0;
+    font-size: 1rem; 
+    background-color: #F8F5F5;
+    padding: 1.5rem;
+    max-height: 250px;
+    overflow-y: auto;
+    list-style-position: inside;
+}
+
+
+.project-item {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.project-item h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: #333;
+}
+
+.project-item p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0.5rem 0 0 0;
+}
+
+.resumeInterviewQuestionButton {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+.resumeInterviewQuestionButton button {
     background-color: #BFBFFA;
     border: none;
-    border-radius: 1vh;
-    padding: 15px;
-    font-size: 1.5vw;
+    border-radius: 0.8rem;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
     color: white;
     cursor: pointer;
- }
- .resumeInterviewQuestionButton button:hover{
+    width: 100%;
+    max-width: 400px;
+    transition: background-color 0.2s ease;
+}
+
+.resumeInterviewQuestionButton button:hover {
     background-color: blue;
- }
+}
+
+@media (min-width: 768px) {
+    .resumedetails {
+        padding: 2rem 5rem;
+    }
+
+    .rdContainer1 {
+        flex-direction: row;
+        height: 34vh;
+        align-items: center;
+    }
+
+    .atsscore {
+        width: 30vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .atsscore h1 {
+        font-size: 3rem;
+    }
+
+    .atsscore h3 {
+        font-size: 5rem;
+    }
+
+    .overallverdict {
+        height: 100%;
+    }
+
+    .overallverdict h1 {
+        height: 25%;
+        font-size: 2rem;
+        padding-top: 1vh;
+    }
+
+    .overallverdict ul {
+        height: 75%;
+        font-size: 1.1vw;
+    }
+
+    .rdContainer2,
+    .rdContainer3,
+    .rdContainer4,
+    .rdContainer5 {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+
+    .strengths, .weaknesses,
+    .grammerAndFormating, .improvementSuggestions,
+    .projectEvaluation, .recommendedRoles,
+    .missingSkills, .educationReview {
+        width: 45vw;
+        height: 30vh;
+    }
+
+    .strengths h1, .weaknesses h1,
+    .grammerAndFormating h1, .improvementSuggestions h1,
+    .projectEvaluation h1, .recommendedRoles h1,
+    .missingSkills h1, .educationReview h1 {
+        height: 30%;
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .strengths ul, .weaknesses ul,
+    .grammerAndFormating ul, .improvementSuggestions ul,
+    .projectEvaluation ul, .recommendedRoles ul,
+    .missingSkills ul, .educationReview ul {
+        height: 70%;
+        font-size: 1.1vw;
+    }
+
+    .resumeInterviewQuestionButton button {
+        width: auto;
+        font-size: 1.2vw;
+    }
+}
