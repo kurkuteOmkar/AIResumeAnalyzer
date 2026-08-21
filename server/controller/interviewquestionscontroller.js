@@ -39,7 +39,7 @@ Do not include explanations or extra text.
 Return only valid JSON.
 
 Return the response in exactly this format:
-
+JSON Schema:
 {
 "questions": [
 {
