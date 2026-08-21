@@ -20,7 +20,7 @@ function InterviewQuestion() {
         try {
             const token=localStorage.getItem("token")
                 const response = await fetch(
-                    `${import.meta.env.VITE_API_URLfeature}/interviewquestions`,
+                    `${import.meta.env.VITE_API_URL}/interviewquestions`,
                     {
                     method: "POST",
                     headers: {
