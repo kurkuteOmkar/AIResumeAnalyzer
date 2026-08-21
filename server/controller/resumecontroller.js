@@ -15,7 +15,6 @@ const resumecontroller = async (req, res) => {
             });
         }
 
-        // 1. Parse PDF from Memory Buffer
         let pdfData;
         try {
             pdfData = await pdfParse(req.file.buffer);
@@ -44,7 +43,14 @@ Analyze the following resume text and return ONLY a valid JSON object matching t
   "weaknesses": [],
   "missingSkills": [],
   "GrammarFormattingIssues": [],
-  "ProjectEvaluation": [],
+  "ProjectEvaluation": [
+  {
+      "title": "Project Name",
+      "relevance": "Evaluation of relevance",
+      "techStack": "Technologies used",
+      "impact": "Impact or results"
+    }
+      ],
   "ImprovementSuggestions": [],
   "RecommendedRoles": [],
   "OverallVerdict": [],
@@ -54,7 +60,6 @@ Analyze the following resume text and return ONLY a valid JSON object matching t
 Resume Text:
 ${pdfData.text}`;
 
-        // 2. Groq API Call
         let completion;
         try {
             completion = await groq.chat.completions.create({
@@ -84,7 +89,6 @@ ${pdfData.text}`;
             throw new Error("Empty response received from AI model.");
         }
 
-        // 3. Robust JSON Cleaning & Parsing
         const cleanText = responseText
             .replace(/```json/g, "")
             .replace(/```/g, "")
@@ -106,7 +110,6 @@ ${pdfData.text}`;
             jsonData = JSON.parse(jsonMatch[0]);
         }
 
-        // 4. Save to Database
         const uploadResumeData = new resumeModel({
             resume: pdfData.text,
         });
