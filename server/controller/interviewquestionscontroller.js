@@ -38,7 +38,7 @@ Do not provide answers.
 Do not include explanations or extra text.
 Return only valid JSON.
 
-Return the response in exactly this format:
+Return ONLY a valid JSON object in the exact format specified below. Do not include any extra text, markdown wrappers, or explanations outside of the JSON structure based on the given description.
 JSON Schema:
 {
 "questions": [

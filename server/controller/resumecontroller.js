@@ -18,7 +18,7 @@ const resumecontroller=async (req, res) => {
         });
       }
   
-      filePath = req.file.path;
+      filePath = req.file.buffer;
   
   
       const dataBuffer = fs.readFileSync(filePath);
